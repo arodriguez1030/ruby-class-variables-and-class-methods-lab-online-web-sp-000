@@ -19,7 +19,7 @@ class Song
   end
   
   def self.artists
-    @@artists[i] || = []
+    if @@artists[i] || = []
     @@artists << artist
   end
 end
