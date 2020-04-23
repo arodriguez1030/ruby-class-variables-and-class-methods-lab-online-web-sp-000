@@ -21,6 +21,5 @@ class Song
   def self.artists
     @@artists[i] || = []
     @@artists << artist
-    end
   end
 end
