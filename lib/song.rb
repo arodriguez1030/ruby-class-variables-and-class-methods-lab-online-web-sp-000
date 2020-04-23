@@ -21,5 +21,6 @@ class Song
   def self.artists
     if @@artists.none?([artist])
       @@artists << @artist
+    end
   end
 end
