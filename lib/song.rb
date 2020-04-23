@@ -29,5 +29,5 @@ class Song
   def genre_count
     genre_count = {}
     genre_count[@@genres]=[]
-    genre_count[@@genres]=[@@genres.count]
+    genre_count[@@genres]=[@@genres].count
 end
