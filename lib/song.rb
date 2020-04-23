@@ -19,6 +19,6 @@ class Song
   end
   
   def self.artists
-    if @@artists
+    if @@artists[]
   end
 end
