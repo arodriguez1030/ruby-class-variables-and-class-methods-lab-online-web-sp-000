@@ -19,7 +19,6 @@ class Song
   end
   
   def self.artists
-    if @@artists[i] || = []
-    @@artists << artist
+    
   end
 end
